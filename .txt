@@ -1,0 +1,12 @@
+JWT para fazer as chamdas à API
+  fazer autenticação
+
+Guardião de rota
+  react-router-dom
+  navigate 
+    let navigate = useNavigate();
+useEffect(() => {
+  setTimeout(() => {
+    navigate("/logout");
+  }, 30000);
+}, []);
